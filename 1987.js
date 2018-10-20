@@ -1,0 +1,1 @@
+function nocontext(t){var e=null==t?event.srcElement.tagName:t.target.tagName;return"IMG"==e?(alert(alertMsg),!1):void 0}var alertMsg="عفواً ممنوع نسخ الصور يرجي قراءة شروط الموقع";document.oncontextmenu=nocontext;
